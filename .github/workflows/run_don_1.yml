@@ -6,7 +6,7 @@ name: Python application
 on:
   push:
     paths:
-      - 'Don-1/**'
+      - 'DON-1/**'
 
 jobs:
   build:
