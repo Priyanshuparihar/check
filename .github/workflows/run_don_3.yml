@@ -6,7 +6,7 @@ name: Python application
 on:
   push:
     paths:
-      - 'DON-2/**'
+      - 'DON-3/**'
 
 jobs:
   build:
@@ -23,6 +23,6 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Run DON-2
+    - name: Run DON-3
       run: |
-        python DON-2/DON-2.py
+        python DON-3/DON-3.py
